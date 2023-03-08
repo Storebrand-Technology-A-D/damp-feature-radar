@@ -1,0 +1,10 @@
+name;ring;quadrant;isNew;description
+CDC from MSql servers;Compleeted;data integration;FALSE;The ability to inngest data via CDC from Microsoft SQL databases.
+Data ingestion from SFTP/ftp;Compleeted;data integration;FALSE;The abiliti to inngest files from sftp and ftp server into data storrage
+Data ingestion form MSQL servers;Compleeted;data integration;FALSE;The ability to ingesst data form microsoft SQL servers
+Databases as code;Compleeted;Infrastructure/system;FALSE;Data beases are configured as code
+Notification on Failed job runs;Compleeted;Monitoring;FALSE;When a ETL job failes we need to be notified of this failiure
+Feature branch development;Compleeted;Ways of working;FALSE;A git proces that increases the speed of development and deployment
+Hosting data from snowflak as an API;Investigation;data integration;TRUE;The abbility to accsess data stored in snowflake via API form other sources
+Notification if data ingestion stalls;Implementation;Monitoring;TRUE;We want to be informed In the case that data ingestion fails
+Dashboard hoasting (shiny/streamlit);Not active;Infrastructure/system;TRUE;We want the abbility to hoast dashboards and interactive displays without using Power BI
