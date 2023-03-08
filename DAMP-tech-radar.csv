@@ -1,28 +1,28 @@
-﻿name;ring;quadrant;isNew;description
-Databricks Notebooks;assess;Platforms;TRUE;
-Databricks Unity Catalog;hold;Platforms;TRUE;
-Datadog;assess;Platforms;TRUE;
-DBT - cloud;adopt;Tools;FALSE;
-DBT - core;adopt;Language And Frameworks;FALSE;
-DBT - Expectations;trial;Tools;TRUE;
-Git;adopt;Language And Frameworks;FALSE;
-Github Actions;adopt;Language And Frameworks;FALSE;
-Hevo;hold;Tools;FALSE;
-Hightouch;assess;Tools;TRUE;
-Metaplane;trial;Tools;FALSE;
-Metrics Store (semantic layer);assess;Techniques;TRUE;
-Permifrost;adopt;Language And Frameworks;FALSE;
-Prefect;adopt;Platforms;FALSE;
-Python;trial;Language And Frameworks;TRUE;
-Snowflake;adopt;Platforms;FALSE;
-SQL;adopt;Language And Frameworks;FALSE;
-Terraform;adopt;Language And Frameworks;FALSE;
-Power BI;trial;Tools;FALSE;
-AKS;adopt;Platforms;FALSE;
-Feature branch developmet;adopt;Techniques;FALSE;
-VSCode;adopt;Tools;FALSE;
-Meltano;adopt;Platforms;FALSE;
-Qlik - replicate;hold;Tools;TRUE;
-GitHub;adopt;Platforms;FALSE;
-Spark;hold;Language And Frameworks;TRUE;
-Flux;trial;Tools;TRUE;
+﻿name,ring,quadrant,isNew,description
+Databricks Notebooks,assess,Platforms,TRUE,
+Databricks Unity Catalog,hold,Platforms,TRUE,
+Datadog,assess,Platforms,TRUE,
+DBT - cloud,adopt,Tools,FALSE,
+DBT - core,adopt,Language And Frameworks,FALSE,
+DBT - Expectations,trial,Tools,TRUE,
+Git,adopt,Language And Frameworks,FALSE,
+Github Actions,adopt,Language And Frameworks,FALSE,
+Hevo,hold,Tools,FALSE,
+Hightouch,assess,Tools,TRUE,
+Metaplane,trial,Tools,FALSE,
+Metrics Store (semantic layer),assess,Techniques,TRUE,
+Permifrost,adopt,Language And Frameworks,FALSE,
+Prefect,adopt,Platforms,FALSE,
+Python,trial,Language And Frameworks,TRUE,
+Snowflake,adopt,Platforms,FALSE,
+SQL,adopt,Language And Frameworks,FALSE,
+Terraform,adopt,Language And Frameworks,FALSE,
+Power BI,trial,Tools,FALSE,
+AKS,adopt,Platforms,FALSE,
+Feature branch developmet,adopt,Techniques,FALSE,
+VSCode,adopt,Tools,FALSE,
+Meltano,adopt,Platforms,FALSE,
+Qlik - replicate,hold,Tools,TRUE,
+GitHub,adopt,Platforms,FALSE,
+Spark,hold,Language And Frameworks,TRUE,
+Flux,trial,Tools,TRUE,
