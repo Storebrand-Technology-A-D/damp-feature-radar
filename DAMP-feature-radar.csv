@@ -1,4 +1,4 @@
-name;ring;quadrant;isNew;description
+﻿name;ring;quadrant;isNew;description
 CDC from MSql servers;Compleeted;data integration;FALSE;The ability to inngest data via CDC from Microsoft SQL databases.
 Data ingestion from SFTP/ftp;Compleeted;data integration;FALSE;The abiliti to inngest files from sftp and ftp server into data storrage
 Data ingestion form MSQL servers;Compleeted;data integration;FALSE;The ability to ingesst data form microsoft SQL servers
