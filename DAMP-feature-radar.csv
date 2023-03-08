@@ -1,7 +1,7 @@
 ﻿name,ring,quadrant,isNew,description
 CDC from MSql servers,Compleeted,data integration,FALSE,The ability to inngest data via CDC from Microsoft SQL databases.
 Notification if data ingestion stalls,Implementation,Monitoring,TRUE,We want to be informed In the case that data ingestion fails
-Hosting data from snowflak as an API,Development,data integration,TRUE,The abbility to accsess data stored in snowflake via API form other sources
+Hosting data from snowflak as an API,Investigation,data integration,TRUE,The abbility to accsess data stored in snowflake via API form other sources
 Dashboard hoasting (shiny/streamlit),Not active,Infrastructure/system,TRUE,We want the abbility to hoast dashboards and interactive displays without using Power BI
 Data ingestion from SFTP/ftp,Compleeted,data integration,FALSE,The abiliti to inngest files from sftp and ftp server into data storrage
 Data ingestion form MSQL servers,Compleeted,data integration,FALSE,The ability to ingesst data form microsoft SQL servers
