@@ -8,3 +8,4 @@ Data ingestion form MSQL servers,Compleeted,data integration,FALSE,The ability t
 Databases as code,Compleeted,Infrastructure/system,FALSE,Data beases are configured as code
 Notification on Failed job runs,Compleeted,Monitoring,FALSE,When a ETL job failes we need to be notified of this failiure
 Feature branch development,Compleeted,Ways of working,FALSE,A git proces that increases the speed of development and deployment
+Calling non sql code in dbt workflows,Not Active,Infrastructure/system,TRUE,The possibility to run spessiffic smaller pieces of code, that perform speccialised task and functions, that are dificult to perform in SQL as part of an existing DBT workflow. Example the ability to call a python function that would perform a table pivot, or simmilar processes for which SQL does not have nativ support.
