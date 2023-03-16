@@ -1,5 +1,5 @@
 ﻿name,ring,quadrant,isNew,description
-AKS,adopt,Platforms,TRUE,
+AKS,adopt,Platforms,TRUE,"""testing quoted decsiptions with , in them"""
 DBT - core,adopt,Language And Frameworks,TRUE,
 Metaplane,trial,Tools,TRUE,
 Git,adopt,Language And Frameworks,TRUE,
