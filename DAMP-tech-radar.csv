@@ -1,81 +1,98 @@
 ﻿name,ring,quadrant,isNew,description
 AKS,adopt,Platforms,TRUE,"""testing quoted decsiptions with , in them"""
-DBT - core,adopt,Language And Frameworks,TRUE,
-Metaplane,trial,Tools,TRUE,
-Git,adopt,Language And Frameworks,TRUE,
-Power BI,adopt,Tools,TRUE,
-Hightouch,assess,Tools,TRUE,
-Github Actions,adopt,Tools,TRUE,
-Python,trial,Language And Frameworks,TRUE,
-DBT - Expectations,adopt,Tools,TRUE,
-Qlik - replicate,hold,Tools,TRUE,
-Permifrost,adopt,Language And Frameworks,TRUE,
-SQL,adopt,Language And Frameworks,TRUE,
-Terraform,adopt,Language And Frameworks,TRUE,
-GitHub,adopt,Platforms,TRUE,
-Meltano,assess,Tools,TRUE,
-Prefect,adopt,Platforms,TRUE,
-Snowflake,adopt,Platforms,TRUE,
-Feature branch developmet,adopt,Techniques,TRUE,
-DBT - cloud,adopt,Tools,TRUE,
-VSCode,adopt,Tools,TRUE,
-Hevo,hold,Tools,TRUE,
+dbt-core,adopt,Language And Frameworks,TRUE,"""dbt is a data transformation tool, primary for SQL, that brings best practices from software engineering to data development"""
+Metaplane,trial,Tools,TRUE,"""Data observability tool with automated incident detection, impact analysis and root cause diagnosis for Snowflake, dbt and PowerBI. SaaS-service"""
+Git,adopt,Language And Frameworks,TRUE,"Version control. Git is a system to track and manage changes to code. "
+Power BI,adopt,Tools,TRUE,Data visualization tool that is the standard business intelligence tool in Storebrand
+Hightouch,assess,Tools,TRUE,"Reverse ETL-tool. A candidate to sync data from Snowflake to applications like Salesforce. "
+Github Actions,adopt,Tools,TRUE,"CI/CD-tool that allows automate our build, test and deployment pipelines"
+Python,trial,Language And Frameworks,TRUE,"Programming language that is used among other things for data analysis, task automation and data visualization. "
+dbt-expectations,adopt,Tools,TRUE,"Extension package for dbt that is inspired by Great Expectations. Greatly increases variety of tests you can perform on your data out of the box in dbt. "
+Qlik Replicate,hold,Tools,TRUE,"""SaaS data replication tool that we use to replicate data from Oracle and MS SQL Server to Snowflake. Status: In use, but do not use for new projects.""""""
+"
+Permifrost,adopt,Language And Frameworks,TRUE,"A python tool for managing permissions in Snowflake. "
+SQL,adopt,Language And Frameworks,TRUE,"Standard language for storing, manipulating and retrieving data from databases. "
+Terraform,adopt,Language And Frameworks,TRUE,"""Infrastructure as code that we use to create, manage and improve infrastructure in Snowflake and dbt-cloud"""
+GitHub,adopt,Platforms,TRUE,Hosting service for software development and version control using Git
+Meltano,assess,Tools,TRUE,"Open-source, flexible and scalable tool to ingest tool to "
+Prefect,adopt,Platforms,TRUE,"""Prefect is an orchestration tool written in Python that lets us define very flexible pipelines. Typical use cases includes kicking off dbt runs, load data from snowflake over to other systems, call APIs or other services, and trigger complex alerts."""""" 
+
+"
+Snowflake,adopt,Platforms,TRUE,Cloud Data Platform
+Feature branch development,adopt,Techniques,TRUE,
+dbt-cloud,adopt,Tools,TRUE,dbt's SaaS-offering that enables us to easier deploy and orchestrate dbt-code
+VSCode,adopt,Tools,TRUE,Code editor
+Hevo,hold,Tools,TRUE,"""Click-based SaaS-tool to manage ingest to Snowflake from applications. Status: Tried, and currently not to be used.""""""
+ "
 Spark,hold,Language And Frameworks,TRUE,
-Datadog,assess,Platforms,TRUE,
-Metrics Store (semantic layer),assess,Techniques,TRUE,
+Datadog,assess,Platforms,TRUE,"Datadog is a monitoring application for cloud applications that we use for tracking the overall state of our platform. "
+dbt Semantic Layer,assess,Techniques,TRUE,"""Define metrics alongside dbt models to guarantee the same answers everywhere, every time and from every tool"""
 Flux,adopt,Tools,TRUE,
-LastPass,adopt,Platforms,TRUE,
-AKV - Azure Key Vault,adopt,Platforms,TRUE,
+LastPass,adopt,Platforms,TRUE,Password manager that we use for some non-critical secrets
+Azure Key Vault (AKV),adopt,Platforms,TRUE,"Azure's key management solution. "
 GitHub,adopt,Platforms,TRUE,
 WSL - Windows subsystem for linux,trial,Platforms,TRUE,
-AVD - Azure Virtual Descktop,assess,Platforms,TRUE,
+AVD - Azure Virtual Desktop,assess,Platforms,TRUE,
 Git Codespaces,assess,Platforms,TRUE,
 GitPod,assess,Platforms,TRUE,
-Dagster,hold,Platforms,TRUE,
-Azure Synaps,hold,Platforms,TRUE,
-Snowsight for IDE,adopt,Tools,TRUE,
-Jira,adopt,Tools,TRUE,
+Dagster,hold,Platforms,TRUE,"""Data orchestrator tool similar to Prefect. Status: Tried and evaluated, and currently not to be used as we went for Prefect instead. """
+Azure Synapse,hold,Platforms,TRUE,"Microsoft Azure's competitor to Snowflake. Status: Aware, and won't be tested.
+"
+Snowsight for IDE,adopt,Tools,TRUE,"Snowflake's new and improved web interface for building and running ad hoc queries. "
+Jira,adopt,Tools,TRUE,Issue tracking tool in Storebrand
 Anaconda,assess,Tools,TRUE,
-Lightdash,assess,Tools,TRUE,
-Snowsight for dashboards,assess,Tools,TRUE,
-NeoVim,assess,Tools,TRUE,
+Lightdash,assess,Tools,TRUE,Lightdash is a BI tool that turns your dbt-project into a full-stack BI platform
+Snowsight for dashboards,assess,Tools,TRUE,"Snowflake's new and improved web interface has rudimentary support for dashboards that can work for some use cases. "
+NeoVim,assess,Tools,TRUE,A VIM-based text editor that crazy people might prefer as their dbt ide.
 Streamlit on Snowflake,assess,Tools,TRUE,
-Airbyte,hold,Tools,TRUE,
-Fivetran,hold,Tools,TRUE,
-Azure Data factory,hold,Tools,TRUE,
-Snyc,hold,Tools,TRUE,
-Patch.tec,hold,Tools,TRUE,
-Elementary,hold,Tools,TRUE,
+Airbyte,hold,Tools,TRUE,"Airbyte automates the ingest (the E in ETL) to Snowflake through a wide range of connectors. Status: Tried, and currently not to be used.
+ "
+Fivetran,hold,Tools,TRUE,"Fivetran automates the ingest (the E in ETL) to Snowflake through a wide range of connectors. Status: Tried, and currently not to be used.
+ "
+Azure Data Factory,hold,Tools,TRUE,"Azure's cloud ETL service. Status: Aware, but yet to be tested.
+"
+Snyk,hold,Tools,TRUE,
+Patch.tech,hold,Tools,TRUE,
+Elementary,hold,Tools,TRUE,"Open source data observability for dbt. Status: Aware, but yet to be tested.
+"
 Select Star,hold,Tools,TRUE,
 Metaphor,hold,Tools,TRUE,
 DataHub,hold,Tools,TRUE,
 Rivery,hold,Tools,TRUE,
-Azure purview,hold,Tools,TRUE,
-Confluent,hold,Tools,TRUE,
-Grafana,hold,Tools,TRUE,
+Azure Purview,hold,Tools,TRUE,"""Data governance solution with lineage, data discovery etc. Status: Prior experience, and currently not to be used.""
+"
+Confluent,hold,Tools,TRUE,"""Data streaming platform based on Apache Kafka. Status: Aware, but yet to be tested.""
+"
+Grafana,hold,Tools,TRUE,"""Open source analytics and visualization tool. Status: Aware, but yet to be tested.""
+"
 Shiny,hold,Tools,TRUE,
-SQL Fluff,hold,Tools,TRUE,
+SQL Fluff,hold,Tools,TRUE,"SQL linter that works with Jinja and dbt. Status: Aware, but yet to be tested.
+"
 Monte Carlo,hold,Tools,TRUE,
-DeepChannel,hold,Tools,TRUE,
-Materialize,hold,Tools,TRUE,
-DBT - utils,adopt,Language And Frameworks,TRUE,
+DeepChannel,hold,Tools,TRUE,"""IDE for dbt-development. Status: Tried, and currently not to be used as it's a bit too alpha."""""" "
+Materialize,hold,Tools,TRUE,"""Database for streaming. Status: Aware, but yet to be tested."""
+dbt-utils,adopt,Language And Frameworks,TRUE,"A dbt-package that is maintained by dbtLabs that contains macros that can be (re)used across dbt projects.
+
+"
 Docker,adopt,Language And Frameworks,TRUE,
-ReData,assess,Language And Frameworks,TRUE,
+re_data,assess,Language And Frameworks,TRUE,"""Open source tool, with a cloud-offering, to observe dbt data, set alerts and detect anomalies in our data"""
 Snowpark,assess,Language And Frameworks,TRUE,
 R,hold,Language And Frameworks,TRUE,
-DBT-vault,hold,Language And Frameworks,TRUE,
+dbt-vault,hold,Language And Frameworks,TRUE,"dbt-package to automate the creation of dbt-models in the raw data layer in data vault. Status: Aware, but yet to be tested.
+"
 Spark,hold,Language And Frameworks,TRUE,
-Kimbal,adopt,Techniques,TRUE,
+Kimball's dimensional modeling,adopt,Techniques,TRUE,With star schemas this is the most widely used and accepted form for modelling data warehouses
 Muffins Meeting,adopt,Techniques,TRUE,
 Tech Radar,trial,Techniques,TRUE,
 Data Products,trial,Techniques,TRUE,
-Big Fat table,trial,Techniques,TRUE,
-Continous Delivery,trial,Techniques,TRUE,
-Hub-Spoke,trial,Techniques,TRUE,
-Data contracts trough DBT,assess,Techniques,TRUE,
+One big table,trial,Techniques,TRUE,"A modelling technique to serve one big table to consumers instead of a star schema with facts and dimensions. "
+Continious Delivery,trial,Techniques,TRUE,
+Hub-spoke,trial,Techniques,TRUE,A strategy with a central data team (us) and spokes (cu
+Data contracts through dbt,assess,Techniques,TRUE,"With dbt 1.6 comes the possibility to declare contracts in dbt. This is a potentially important feature that allows us to modularize our dbt-repos. "
 Team API,assess,Techniques,TRUE,
 Trunk based development,assess,Techniques,TRUE,
 Data Mesh,hold,Techniques,TRUE,
 TDD,hold,Techniques,TRUE,
-Data vault,hold,Techniques,TRUE,
-Hashing of primary Keys,hold,Techniques,TRUE,
+Data vault,hold,Techniques,TRUE,"""Technique to highly automate the modelling of a data warehouse. Status: Aware, but yet to be tested"""
+Hashing of primary keys,hold,Techniques,TRUE,"""Technique to obfuscate data. Mostly used as primary keys instead of sequences. Status: Tried, and currently not to be used.""""""
+"
