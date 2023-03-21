@@ -87,7 +87,7 @@ Tech Radar,trial,Techniques,TRUE,
 Data Products,trial,Techniques,TRUE,
 One big table,trial,Techniques,TRUE,"A modelling technique to serve one big table to consumers instead of a star schema with facts and dimensions. "
 Continious Delivery,trial,Techniques,TRUE,
-Hub-spoke,trial,Techniques,TRUE,A strategy with a central data team (us) and spokes (cu
+Hub-spoke,trial,Techniques,TRUE,A strategy with a central data team (us) and spokes (business units) as consumers/users of the platform.
 Data contracts through dbt,assess,Techniques,TRUE,"With dbt 1.6 comes the possibility to declare contracts in dbt. This is a potentially important feature that allows us to modularize our dbt-repos. "
 Team API,assess,Techniques,TRUE,
 Trunk based development,assess,Techniques,TRUE,
