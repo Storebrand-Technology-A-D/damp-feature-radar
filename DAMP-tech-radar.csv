@@ -31,67 +31,67 @@ Flux,adopt,Tools,TRUE,
 LastPass,adopt,Platforms,TRUE,Password manager that we use for some non-critical secrets
 Azure Key Vault (AKV),adopt,Platforms,TRUE,"Azure's key management solution. "
 GitHub,adopt,Platforms,TRUE,
-WSL - Windows subsystem for linux,trial,Platforms,TRUE,
-AVD - Azure Virtual Desktop,assess,Platforms,TRUE,
-Git Codespaces,assess,Platforms,TRUE,
-GitPod,assess,Platforms,TRUE,
+WSL - Windows subsystem for linux,trial,Platforms,TRUE,"""Linux, running in windows. WSL allows developers on windows machines to develop using all the normal linux tools, while using windows just like anyone else. WSL is also Microsoft's recommended development environment for Python"""
+AVD - Azure Virtual Desktop,assess,Platforms,TRUE,"""Virtual machines running inside the Azure environment, providing a controlled environment, better security, and easier access to cloud resources"""
+Git Codespaces,assess,Platforms,TRUE,"""Enables development directly from github, on preconfigured pods"""
+GitPod,assess,Platforms,TRUE,"""Seamlessly develop in your preferred tool, using predefined containers for consistent environments"""
 Dagster,hold,Platforms,TRUE,"""Data orchestrator tool similar to Prefect. Status: Tried and evaluated, and currently not to be used as we went for Prefect instead. """
 Azure Synapse,hold,Platforms,TRUE,"Microsoft Azure's competitor to Snowflake. Status: Aware, and won't be tested.
 "
 Snowsight for IDE,adopt,Tools,TRUE,"Snowflake's new and improved web interface for building and running ad hoc queries. "
 Jira,adopt,Tools,TRUE,Issue tracking tool in Storebrand
-Anaconda,assess,Tools,TRUE,
+Anaconda,assess,Tools,TRUE,"""Python packaging environment and tools suite providing better security, especially for data scientists and business analysts using python."""
 Lightdash,assess,Tools,TRUE,Lightdash is a BI tool that turns your dbt-project into a full-stack BI platform
 Snowsight for dashboards,assess,Tools,TRUE,"Snowflake's new and improved web interface has rudimentary support for dashboards that can work for some use cases. "
 NeoVim,assess,Tools,TRUE,A VIM-based text editor that crazy people might prefer as their dbt ide.
-Streamlit on Snowflake,assess,Tools,TRUE,
+Streamlit on Snowflake,assess,Tools,TRUE,"""Host and run dashboards and apps running in python with the Streamlit framework - directly on snowflake, and integrated with SSO RBAC."""
 Airbyte,hold,Tools,TRUE,"Airbyte automates the ingest (the E in ETL) to Snowflake through a wide range of connectors. Status: Tried, and currently not to be used.
  "
 Fivetran,hold,Tools,TRUE,"Fivetran automates the ingest (the E in ETL) to Snowflake through a wide range of connectors. Status: Tried, and currently not to be used.
  "
 Azure Data Factory,hold,Tools,TRUE,"Azure's cloud ETL service. Status: Aware, but yet to be tested.
 "
-Snyk,hold,Tools,TRUE,
-Patch.tech,hold,Tools,TRUE,
+Snyk,hold,Tools,TRUE,"""Code security suite with plugins for IDEs like VSCode, providing live security audits and vulnerability scanning. Aimed at developers rather than data scientists and business analysts."""
+Patch.tech,hold,Tools,TRUE,"""Enables fast APIs, both REST and GraphQL, using Snowflake as a source. Reverse ETL without batch-jobs."""
 Elementary,hold,Tools,TRUE,"Open source data observability for dbt. Status: Aware, but yet to be tested.
 "
-Select Star,hold,Tools,TRUE,
-Metaphor,hold,Tools,TRUE,
-DataHub,hold,Tools,TRUE,
-Rivery,hold,Tools,TRUE,
+Select Star,hold,Tools,TRUE,"""Data catalog and lineage SaaS for the modern data stack."""
+Metaphor,hold,Tools,TRUE,"""Data catalog and lineage SaaS for the modern data stack."""
+DataHub,hold,Tools,TRUE,"""Data catalog and lineage tool for the modern data stack, provided both as Open Source and as SaaS. Status: We doubt we can properly secure an Open Source installation given the built-in security features, and inquiries about SaaS picing suggests they are prohibitively expensive."""
+Rivery,hold,Tools,TRUE,"Extract/Load SaaS platform. Status: Trialed, feature set not a match for our needs."
 Azure Purview,hold,Tools,TRUE,"""Data governance solution with lineage, data discovery etc. Status: Prior experience, and currently not to be used.""
 "
 Confluent,hold,Tools,TRUE,"""Data streaming platform based on Apache Kafka. Status: Aware, but yet to be tested.""
 "
 Grafana,hold,Tools,TRUE,"""Open source analytics and visualization tool. Status: Aware, but yet to be tested.""
 "
-Shiny,hold,Tools,TRUE,
+Shiny,hold,Tools," ","""Create visualizations, dashboards and apps using R and the Shiny library. One of the most feature-rich code-based tools for creating and sharing interactive visualizations. Status: Not trialed by the data platform team, R is not widely used in Storebrand."""
 SQL Fluff,hold,Tools,TRUE,"SQL linter that works with Jinja and dbt. Status: Aware, but yet to be tested.
 "
-Monte Carlo,hold,Tools,TRUE,
+Monte Carlo,hold,Tools,TRUE,"""Data observability tool, using machine learning to monitor Snowflake for data drift, missing data and other irregularities in the data. Status: We know little about pricing, and we are holding off while we trial Metaplane."""
 DeepChannel,hold,Tools,TRUE,"""IDE for dbt-development. Status: Tried, and currently not to be used as it's a bit too alpha."""""" "
 Materialize,hold,Tools,TRUE,"""Database for streaming. Status: Aware, but yet to be tested."""
 dbt-utils,adopt,Language And Frameworks,TRUE,"A dbt-package that is maintained by dbtLabs that contains macros that can be (re)used across dbt projects.
 
 "
-Docker,adopt,Language And Frameworks,TRUE,
+Docker,adopt,Language And Frameworks,TRUE,"""Enables microservices and virtualization for consistent environments."""
 re_data,assess,Language And Frameworks,TRUE,"""Open source tool, with a cloud-offering, to observe dbt data, set alerts and detect anomalies in our data"""
-Snowpark,assess,Language And Frameworks,TRUE,
-R,hold,Language And Frameworks,TRUE,
+Snowpark,assess,Language And Frameworks,TRUE,"""Framework for running Spark/Python directly in Snowflake."""
+R,hold,Language And Frameworks,TRUE,"""Programming language and packaging environment made for data analysis. Status: Limited adoption at Storebrand in general, few integrations with the rest of our toolset."""
 dbt-vault,hold,Language And Frameworks,TRUE,"dbt-package to automate the creation of dbt-models in the raw data layer in data vault. Status: Aware, but yet to be tested.
 "
 Spark,hold,Language And Frameworks,TRUE,
 Kimball's dimensional modeling,adopt,Techniques,TRUE,With star schemas this is the most widely used and accepted form for modelling data warehouses
 Muffins Meeting,adopt,Techniques,TRUE,
 Tech Radar,trial,Techniques,TRUE,
-Data Products,trial,Techniques,TRUE,
+Data Products,trial,Techniques,TRUE,"""Treating data as products enables clean data handoffs and separation of concerns between teams. Data products can be combined with data contracts. The concept is part of the Data Mesh philosophy."""
 One big table,trial,Techniques,TRUE,"A modelling technique to serve one big table to consumers instead of a star schema with facts and dimensions. "
 Continious Delivery,trial,Techniques,TRUE,
 Hub-spoke,trial,Techniques,TRUE,A strategy with a central data team (us) and spokes (business units) as consumers/users of the platform.
 Data contracts through dbt,assess,Techniques,TRUE,"With dbt 1.6 comes the possibility to declare contracts in dbt. This is a potentially important feature that allows us to modularize our dbt-repos. "
 Team API,assess,Techniques,TRUE,
 Trunk based development,assess,Techniques,TRUE,
-Data Mesh,hold,Techniques,TRUE,
+Data Mesh,hold,Techniques,TRUE,"""Framework/Philosophy for modularizing data across different teams in the organization, enabling autonomous teams to exchange and use data from across the organization without a centralized data team."""
 TDD,hold,Techniques,TRUE,
 Data vault,hold,Techniques,TRUE,"""Technique to highly automate the modelling of a data warehouse. Status: Aware, but yet to be tested"""
 Hashing of primary keys,hold,Techniques,TRUE,"""Technique to obfuscate data. Mostly used as primary keys instead of sequences. Status: Tried, and currently not to be used.""""""
