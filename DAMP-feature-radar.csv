@@ -34,7 +34,7 @@ Have Production grade version of changes for users to test,Completed,Ways of wor
 Data lake integration for blob/other systems,Wait,Data Integration,FALSE,The abbility to connect to and store data within a Data Lake / blob storrage enviroment.
 Self Service Extract/Load,Wait,Data Integration,FALSE,"As a Data developer, i want the abbility to perform self scervice E/L setup for commonly used conectors"
 Ability to push data to spessific solutions/targets (reverse ETL),Wait,Data Integration,FALSE,I want to be able to take data from the platform and push it into other systems for further use. the reverse ETL pattern
-Accsess data from Databricks,Investigate,Data Integration,FALSE,ad a data scientist I want to accsess data usning Databrics
+Accsess data from Databricks,Investigation,Data Integration,FALSE,ad a data scientist I want to accsess data usning Databrics
 automatically load CSV to Snowflake from github,Completed,Data Integration,FALSE,to be rewritten
 Accsess data from BI Tool,Completed,Data Integration,FALSE,"As a buisniss analyst, I wnt to be able to use a Buisness tool such as Power BI to accses data on the platform"
 Automatic unload to DBs and flat files,Completed,Data Integration,FALSE,
@@ -50,13 +50,13 @@ Publically share spessific datasets to other parts of Storebrand,Wait,Platform/S
 Enable data store for API's,Wait,Platform/System,FALSE,
 ML training capabillities,Wait,Platform/System,FALSE,As a Data scientist I want to be able to train ML models as part of the data platform
 Automatic cycling of Paswords for system users,Wait,Platform/System,FALSE,Tha abbility for the paltform to automatically cycle passwords for system users based on requierements
-Observability Dashboard,Investigate,Platform/System,FALSE,A Dashboard that provides at a glance information on the state of the platform and data pipelines.
-Monitor for unused Data/tables,Investigate,Platform/System,FALSE,A monitor and notification system that wil inform us about data/tables that are unused or stale for a long time
-Automatically identify expensive/anomalies in query runs,Investigate,Platform/System,FALSE,A system that will automatically identify anomulus or exessive expensive queries
-Notification when data leaves spessified quality levels,Investigate,Platform/System,FALSE,We want to be notified once data leaves spessifeid data quality boundires
-Local and Isolated Data development,Investigate,Platform/System,FALSE,"The ability to perform local development, and data transformation in a local insolated enviorment"
-Ability to track effect of platform changes on users,Investigate,Platform/System,FALSE,"When making changes to the platform will have impact on the users, we want to be able to track the changes that we impact"
-Data ownership,Investigate,Platform/System,FALSE,We want the ability to assigne Data ownershipp to data products
+Observability Dashboard,Investigation,Platform/System,FALSE,A Dashboard that provides at a glance information on the state of the platform and data pipelines.
+Monitor for unused Data/tables,Investigation,Platform/System,FALSE,A monitor and notification system that wil inform us about data/tables that are unused or stale for a long time
+Automatically identify expensive/anomalies in query runs,Investigation,Platform/System,FALSE,A system that will automatically identify anomulus or exessive expensive queries
+Notification when data leaves spessified quality levels,Investigation,Platform/System,FALSE,We want to be notified once data leaves spessifeid data quality boundires
+Local and Isolated Data development,Investigation,Platform/System,FALSE,"The ability to perform local development, and data transformation in a local insolated enviorment"
+Ability to track effect of platform changes on users,Investigation,Platform/System,FALSE,"When making changes to the platform will have impact on the users, we want to be able to track the changes that we impact"
+Data ownership,Investigation,Platform/System,FALSE,We want the ability to assigne Data ownershipp to data products
 Ability to restore data from backup if needed,Completed,Platform/System,FALSE,"The abbility to restore data that was deleted from backup, within spessified limitations"
 Masking policy based on roles,Completed,Platform/System,FALSE,The ability to sett masking policies that take effect based on user roles
 Code stored in Version controll Systems,Completed,Platform/System,FALSE,All code should be stored in a version controll system
