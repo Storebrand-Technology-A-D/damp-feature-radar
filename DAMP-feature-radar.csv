@@ -3,7 +3,7 @@ CDC from MSSQL servers,Completed,Data Integration,FALSE,The ability to ingest da
 Notification if data ingestion stalls,Implementation,Platform/System,FALSE,We want to be informed in the case that data ingestion fails
 Hosting data from snowflak as an API,Investigation,Data Integration,FALSE,The ability for other sources to access data stored in snowflake via an API
 Dashboard hoasting (shiny/streamlit),Wait,Platform/System,FALSE,We want the ability to host dashboards and interactive displays without using PowerBI
-Data ingestion from SFTP/ftp,Completed,Data integraiton,FALSE,The ability to ingest files from sftp and ftp server into data storage
+Data ingestion from SFTP/ftp,Completed,Data Integration,FALSE,The ability to ingest files from sftp and ftp server into data storage
 Data ingestion from MSQL servers,Completed,Data Integration,FALSE,The ability to ingest data from microsoft SQL servers
 Databases as code,Completed,Platform/System,FALSE,Databases are configured as code
 Notification on Failed job runs,Completed,Platform/System,FALSE,When a ETL job failes we need to be notified of this failiure
