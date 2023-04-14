@@ -35,7 +35,7 @@ Data lake integration for blob/other systems,Wait,Data Integration,FALSE,The abb
 Self Service Extract/Load,Wait,Data Integration,FALSE,"As a Data developer, i want the abbility to perform self scervice E/L setup for commonly used conectors"
 Ability to push data to spessific solutions/targets (reverse ETL),Wait,Data Integration,FALSE,I want to be able to take data from the platform and push it into other systems for further use. the reverse ETL pattern
 Accsess data from Databricks,Investigation,Data Integration,FALSE,ad a data scientist I want to accsess data usning Databrics
-automatically load CSV to Snowflake from github,Completed,Data Integration,FALSE,to be rewritten
+Upload of versioned insensitive CSV files,Completed,Data Integration,FALSE,I want to be anble to upload smaller versioned csv files as part of process runs.
 Accsess data from BI Tool,Completed,Data Integration,FALSE,"As a buisniss analyst, I wnt to be able to use a Buisness tool such as Power BI to accses data on the platform"
 Automatic unload to DBs and flat files,Completed,Data Integration,FALSE,
 Ability to delete individual person information,Wait,Platform/System,FALSE,Process for the systematic/automatic deletion of individual person data based on GDPR requests
