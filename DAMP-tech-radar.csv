@@ -1,17 +1,17 @@
 ﻿name,ring,quadrant,isNew,description
 AKS,Adopt,Platforms,TRUE,"""testing quoted decsiptions with , in them"""
-dbt-core,Adopt,Language And Frameworks,TRUE,"""dbt is a data transformation tool, primary for SQL, that brings best practices from software engineering to data development"""
+dbt-core,Adopt,Languages & Frameworks,TRUE,"""dbt is a data transformation tool, primary for SQL, that brings best practices from software engineering to data development"""
 Metaplane,Trial,Tools,TRUE,"""Data observability tool with automated incident detection, impact analysis and root cause diagnosis for Snowflake, dbt and PowerBI. SaaS-service"""
-Git,Adopt,Language And Frameworks,TRUE,"Version control. Git is a system to track and manage changes to code. "
+Git,Adopt,Languages & Frameworks,TRUE,"Version control. Git is a system to track and manage changes to code. "
 Power BI,Adopt,Tools,TRUE,Data visualization tool that is the standard business intelligence tool in Storebrand
 Hightouch,Assess,Tools,TRUE,"Reverse ETL-tool. A candidate to sync data from Snowflake to applications like Salesforce. "
 Github Actions,Adopt,Tools,TRUE,"CI/CD-tool that allows automate our build, test and deployment pipelines"
-Python,Trial,Language And Frameworks,TRUE,"Programming language that is used among other things for data analysis, task automation and data visualization. "
+Python,Trial,Languages & Frameworks,TRUE,"Programming language that is used among other things for data analysis, task automation and data visualization. "
 dbt-expectations,Adopt,Tools,TRUE,"Extension package for dbt that is inspired by Great Expectations. Greatly increases variety of tests you can perform on your data out of the box in dbt. "
 Qlik Replicate,Hold,Tools,TRUE,"""SaaS data replication tool that we use to replicate data from Oracle and MS SQL Server to Snowflake. Status: In use, but do not use for new projects."""
-Permifrost,Adopt,Language And Frameworks,TRUE,"A python tool for managing permissions in Snowflake. "
-SQL,Adopt,Language And Frameworks,TRUE,"Standard language for storing, manipulating and retrieving data from databases. "
-Terraform,Adopt,Language And Frameworks,TRUE,"""Infrastructure as code that we use to create, manage and improve infrastructure in Snowflake and dbt-cloud"""
+Permifrost,Adopt,Languages & Frameworks,TRUE,"A python tool for managing permissions in Snowflake. "
+SQL,Adopt,Languages & Frameworks,TRUE,"Standard language for storing, manipulating and retrieving data from databases. "
+Terraform,Adopt,Languages & Frameworks,TRUE,"""Infrastructure as code that we use to create, manage and improve infrastructure in Snowflake and dbt-cloud"""
 GitHub,Adopt,Platforms,TRUE,Hosting service for software development and version control using Git
 Meltano,Assess,Tools,TRUE,"Open-source, flexible and scalable tool to ingest tool to "
 Prefect,Adopt,Platforms,TRUE,"""Prefect is an orchestration tool written in Python that lets us define very flexible pipelines. Typical use cases includes kicking off dbt runs, load data from snowflake over to other systems, call APIs or other services, and trigger complex alerts."""
@@ -20,7 +20,7 @@ Feature branch development,Adopt,Techniques,TRUE,
 dbt-cloud,Adopt,Tools,TRUE,dbt's SaaS-offering that enables us to easier deploy and orchestrate dbt-code
 VSCode,Adopt,Tools,TRUE,Code editor
 Hevo,Hold,Tools,TRUE,"""Click-based SaaS-tool to manage ingest to Snowflake from applications. Status: Tried, and currently not to be used."""
-Spark,Hold,Language And Frameworks,TRUE,
+Spark,Hold,Languages & Frameworks,TRUE,
 Datadog,Assess,Platforms,TRUE,"Datadog is a monitoring application for cloud applications that we use for tracking the overall state of our platform. "
 dbt Semantic Layer,Assess,Techniques,TRUE,"""Define metrics alongside dbt models to guarantee the same answers everywhere, every time and from every tool"""
 Flux,Adopt,Tools,TRUE,
@@ -58,12 +58,12 @@ SQL Fluff,Hold,Tools,TRUE,"SQL linter that works with Jinja and dbt. Status: Awa
 Monte Carlo,Hold,Tools,TRUE,"""Data observability tool, using machine learning to monitor Snowflake for data drift, missing data and other irregularities in the data. Status: We know little about pricing, and we are holding off while we trial Metaplane."""
 DeepChannel,Hold,Tools,TRUE,"""IDE for dbt-development. Status: Tried, and currently not to be used as it's a bit too alpha."""""" "
 Materialize,Hold,Tools,TRUE,"""Database for streaming. Status: Aware, but yet to be tested."""
-dbt-utils,Adopt,Language And Frameworks,TRUE,A dbt-package that is maintained by dbtLabs that contains macros that can be (re)used across dbt projects.
-Docker,Adopt,Language And Frameworks,TRUE,"""Enables microservices and virtualization for consistent environments."""
-re_data,Assess,Language And Frameworks,TRUE,"""Open source tool, with a cloud-offering, to observe dbt data, set alerts and detect anomalies in our data"""
-Snowpark,Assess,Language And Frameworks,TRUE,"""Framework for running Spark/Python directly in Snowflake."""
-R,Hold,Language And Frameworks,TRUE,"""Programming language and packaging environment made for data analysis. Status: Limited adoption at Storebrand in general, few integrations with the rest of our toolset."""
-dbt-vault,Hold,Language And Frameworks,TRUE,"dbt-package to automate the creation of dbt-models in the raw data layer in data vault. Status: Aware, but yet to be tested."
+dbt-utils,Adopt,Languages & Frameworks,TRUE,A dbt-package that is maintained by dbtLabs that contains macros that can be (re)used across dbt projects.
+Docker,Adopt,Languages & Frameworks,TRUE,"""Enables microservices and virtualization for consistent environments."""
+re_data,Assess,Languages & Frameworks,TRUE,"""Open source tool, with a cloud-offering, to observe dbt data, set alerts and detect anomalies in our data"""
+Snowpark,Assess,Languages & Frameworks,TRUE,"""Framework for running Spark/Python directly in Snowflake."""
+R,Hold,Languages & Frameworks,TRUE,"""Programming language and packaging environment made for data analysis. Status: Limited adoption at Storebrand in general, few integrations with the rest of our toolset."""
+dbt-vault,Hold,Languages & Frameworks,TRUE,"dbt-package to automate the creation of dbt-models in the raw data layer in data vault. Status: Aware, but yet to be tested."
 Kimball's dimensional modeling,Adopt,Techniques,TRUE,With star schemas this is the most widely used and accepted form for modelling data warehouses
 Muffins Meeting,Adopt,Techniques,TRUE,
 Tech Radar,Trial,Techniques,TRUE,
