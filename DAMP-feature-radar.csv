@@ -8,7 +8,7 @@ Data ingestion from MSQL servers,Completed,Data Integration,FALSE,The ability to
 Databases as code,Completed,Platform/System,FALSE,Databases are configured as code
 Notification on Failed job runs,Completed,Platform/System,FALSE,When a ETL job failes we need to be notified of this failiure
 Feature branch development,Completed,Ways of working,FALSE,A git process that increases the speed of development and deployment
-Calling non-sql code in dbt workflows,Wait,Platform/System,FALSE,The possibility to run specific smaller pieces of code that perform specialised task and functions that are dificult to perform in SQL as part of an existing DBT workflow. Example the ability to call a python function that would perform a table pivot or similar processes for which SQL does not have native support.
+Calling non-sql code in dbt workflows,Completed,Platform/System,TRUE,The possibility to run specific smaller pieces of code that perform specialised task and functions that are dificult to perform in SQL as part of an existing DBT workflow. Example the ability to call a python function that would perform a table pivot or similar processes for which SQL does not have native support.
 Open Site for documentation of platform,Investigation,Misc,FALSE,
 Improoved routing for Slack/teams feature requests from users,Wait,Ways of working,FALSE,We want to improove the routing for featrue requests from users when they come inn to the platform team
 Automatic data change management (CI/CD),Wait,Ways of working,FALSE,Some way of being infromed of the effect a change will have on the data prior to commit as part of a CI/CD pipeline in tandem with tests
@@ -18,7 +18,7 @@ Securley sharing secrets with people outside of platform,Wait,Ways of working,FA
 Process for Notifying relevant users when system user paswords are reset,Wait,Ways of working,FALSE,"When system user passwords are reset, downstream users need to be notified. We want a mechanism to make this in a secure aoutometed fasion"
 Opperation notification channels,Investigation,Ways of working,FALSE,"A mechanism to notify downstream users of Platform changes, planned down-time, and similar operational information  "
 Platform change request process,Investigation,Ways of working,FALSE,"A Mechanism to propose changes to the platform, both on the feature request level, as well as on the operational level (new inrastructure, permission changes)"
-Ability to run python as part of a transformation,Investigation,Ways of working,FALSE,"Certain proceses make more sense in python than in SQL, I want the abillity to use Python in the transformations where that makes sense"
+Ability to run python as part of a transformation,Completed,Ways of working,FALSE,"Certain proceses make more sense in python than in SQL, I want the abillity to use Python in the transformations where that makes sense"
 Single source of truth for production transformations,Completed,Ways of working,FALSE,All transformations that are run in production should have a single source of truth that can be investigated and queried
 Self Service Masking ploicy,Completed,Ways of working,FALSE,As a data developer i want the ability to create and apply masking policies in a self service manner.
 Deploying Changes to Data products on demand,Completed,Ways of working,FALSE,"I want to be able to deploy changes to dataproducts on demand, not having to wait for pre-spessifed releace cycles"
@@ -31,28 +31,28 @@ Spessify data quality targets,Completed,Ways of working,FALSE,As a data develope
 Create simple visualisations on top of data,Completed,Ways of working,FALSE,The abbility to create simple visualisations without the need for large BI systems
 Run test against production-like data,Completed,Ways of working,FALSE,The ability to test my transformations against data that is as production like as posssible without impacting production
 Have Production grade version of changes for users to test,Completed,Ways of working,FALSE,To be able to show end users how changes will impact production data prior to production for QA purposes
-Data lake integration for blob/other systems,Wait,Data Integration,FALSE,The abbility to connect to and store data within a Data Lake / blob storrage enviroment.
-Self Service Extract/Load,Wait,Data Integration,FALSE,"As a Data developer, i want the abbility to perform self scervice E/L setup for commonly used conectors"
-Ability to push data to spessific solutions/targets (reverse ETL),Wait,Data Integration,FALSE,I want to be able to take data from the platform and push it into other systems for further use. the reverse ETL pattern
+Data lake integration for blob/other systems,Investigation,Data Integration,TRUE,The abbility to connect to and store data within a Data Lake / blob storrage enviroment.
+Self Service Extract/Load,Investigation,Data Integration,TRUE,"As a Data developer, i want the abbility to perform self scervice E/L setup for commonly used conectors"
+Ability to push data to spessific solutions/targets (reverse ETL),Investigation,Data Integration,TRUE,I want to be able to take data from the platform and push it into other systems for further use. the reverse ETL pattern
 Accsess data from Databricks,Investigation,Data Integration,FALSE,ad a data scientist I want to accsess data usning Databrics
 Upload of versioned insensitive CSV files,Completed,Data Integration,FALSE,I want to be anble to upload smaller versioned csv files as part of process runs.
 Accsess data from BI Tool,Completed,Data Integration,FALSE,"As a buisniss analyst, I wnt to be able to use a Buisness tool such as Power BI to accses data on the platform"
 Automatic unload to DBs and flat files,Completed,Data Integration,FALSE,
-Ability to delete individual person information,Wait,Platform/System,FALSE,Process for the systematic/automatic deletion of individual person data based on GDPR requests
+Centralized pattern for deleting individual person information,Wait,Platform/System,FALSE,Process for the systematic/automatic deletion of individual person data based on GDPR requests
 Discovering data products in platform,Wait,Platform/System,FALSE,"As data developer, and enduser i want a sustem to find and discover available data products on the platform"
 Designated Data owner/steward to dataset,Wait,Platform/System,FALSE,The ability to set designated data owners/stewards in a searchabal system such as a data catalog
 Colum level data linage,Wait,Platform/System,FALSE,I want the ability to se a column level linage for the data products
 Data Catalogue,Wait,Platform/System,FALSE,"A centrally searchable system for data, stewardship, ownership, system and buisness meta data"
-Documentation Chatbot,Wait,Platform/System,FALSE,As system user I want a chat bot to help me navigate platform documentation
+Documentation Chatbot,Investigation,Platform/System,TRUE,As system user I want a chat bot to help me navigate platform documentation
 Automated job Dependency orchestration,Wait,Platform/System,FALSE,System for autometed triggeing of transformations based on transformation dependensies (as described in something like DBT-model structures)
-Site hosting,Wait,Platform/System,FALSE,"Mechanism to alow the platform and its users to securly host webpages based on data and/or information on the platform "
+Site hosting,Investigation,Platform/System,TRUE,"Mechanism to alow the platform and its users to securly host webpages based on data and/or information on the platform "
 Publically share spessific datasets to other parts of Storebrand,Wait,Platform/System,FALSE,"The ability to designate a dataset as public or private, while enabeling the sharing of public datasets across the orgaisation"
 Enable data store for API's,Wait,Platform/System,FALSE,
-ML training capabillities,Wait,Platform/System,FALSE,As a Data scientist I want to be able to train ML models as part of the data platform
+ML training capabillities,Investigation,Platform/System,TRUE,As a Data scientist I want to be able to train ML models as part of the data platform
 Automatic cycling of Paswords for system users,Wait,Platform/System,FALSE,Tha abbility for the paltform to automatically cycle passwords for system users based on requierements
 Observability Dashboard,Investigation,Platform/System,FALSE,A Dashboard that provides at a glance information on the state of the platform and data pipelines.
-Monitor for unused Data/tables,Investigation,Platform/System,FALSE,A monitor and notification system that wil inform us about data/tables that are unused or stale for a long time
-Automatically identify expensive/anomalies in query runs,Investigation,Platform/System,FALSE,A system that will automatically identify anomulus or exessive expensive queries
+Monitor for unused Data/tables,Implementation,Platform/System,TRUE,A monitor and notification system that wil inform us about data/tables that are unused or stale for a long time
+Automatically identify expensive/anomalies in query runs,Implementation,Platform/System,TRUE,A system that will automatically identify anomulus or exessive expensive queries
 Notification when data leaves spessified quality levels,Investigation,Platform/System,FALSE,We want to be notified once data leaves spessifeid data quality boundires
 Local and Isolated Data development,Investigation,Platform/System,FALSE,"The ability to perform local development, and data transformation in a local insolated enviorment"
 Ability to track effect of platform changes on users,Investigation,Platform/System,FALSE,"When making changes to the platform will have impact on the users, we want to be able to track the changes that we impact"
@@ -76,4 +76,13 @@ Data linage,Completed,Platform/System,FALSE,"As a Data developer I want to have 
 Row access policy,Completed,Platform/System,FALSE,I want to filter data based on the role of the loged in user
 Self Service reports and dashboards,Completed,Platform/System,FALSE,As a data developer or enduser I want to be able to create reports and dashboards in a self scervice manner
 Securly share data with external parties,Completed,Platform/System,FALSE,I wnat to be able to share data with external parties in a secure fassion.
-Network drive integration,Investigation,Data Integration,FALSE,I want to be able to read and write data that is stored on network drives.
+Network drive integration,Wait,Data Integration,TRUE,I want to be able to read and write data that is stored on network drives.
+Exit Stratagiy,Investigation,Misc,TRUE,What is our strategy in the case that parts of our stack become unavailable.
+Ways to track progress on Platform fro outsiders that does not involve Chat or Radars,Wait,Ways of working,TRUE,IF chat and radar based communication fails. how are we going to communicate progress to outside stakeholders.
+Staging area owned by DAMP platform,Investigation,Data Integration,TRUE,We repeatedly see the need for a Staging are for files that will be loaded into snowflake that is owned and operated by the damp platform.
+User Activity Monitoring,Investigation,Platform/System,TRUE,As part of security work we need a way to monitor user activity in order to detect abnormal behaviour.
+Develop Analythics Projects with data from local dev,Implementation,Platform/System,TRUE,"We want to be able to develop Analytical workflows using platform data from a IDE, in local development."
+Store temporary workfiles outside of snowflake securely (project files),Implementation,Platform/System,TRUE,"As part of analythical experimentation/workflows and other intial processes, there is need to be able to securely store temporary files, that should not be stored on Snowflake as a permanant store."
+Store none-tabular data,Implementation,Data Integration,TRUE,"As Data Science tasks increase, there will be need to store Non tabular data, this cannot be stored in Snowflake, and as such needs to be stored elsewhere"
+Dedicated Permisions files per team,Completed,Platform/System,TRUE,A single Permifrost file can quickly become Unvieldy to read. As such we want to have smaller files containing the permisions for a team
+User notification as accsess expieres,Completed,Platform/System,TRUE,System for notifying users to remind them to renew their accsess before it expieres if they still need it.
