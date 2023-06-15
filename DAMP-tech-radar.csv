@@ -83,9 +83,9 @@ Github Copilot,Trial,Tools,TRUE,"""A tool to act as an AI programming assistant,
 Data Lake gen2,Trial,Platforms,TRUE,"""Microsoft Blob storrage based Data lake, that kan store any file format. under consideration for use as storrage of temp files and non tabular data"""
 LLM,Assess,Languages & Frameworks,TRUE,"""Large Language Model, these are hot topic right now, and we are investigating if, and how this will impact the platform"""
 Databricks,Assess,Platforms,TRUE,"""A wanted all in one Data platform, but for our use it is considdered as a narrow band of notebook hosting, for data scientist in anaylthical workflows"""
-Microsoft Fabric,Hold,Platforms,TRUE,
-Alvin.ai,Assess,Tools,TRUE,
-Azure DevOps,Hold,Tools,TRUE,
-DBT snowmask,Adopt,Languages & Frameworks,TRUE,
-DBT-Snowflake-monitoring,Trial,Languages & Frameworks,TRUE,
-dbt-project evaluator,Hold,Languages & Frameworks,TRUE,
+Microsoft Fabric,Hold,Platforms,TRUE,"Microsoft's repackaging of all things Microsoft and Data. "
+Alvin.ai,Assess,Tools,TRUE,"SaaS-tool with column-level lineage, impact analysis (on changes in Snowflake), cost statistics and future data observability features. We've received one demo of 1,5 hours of the tool and as it does not have integration with dbt-cloud nor Prefect at the moment we're sitting on the sidelines. "
+Azure DevOps,Hold,Tools,TRUE,"Alternative to Github for version control of code and running Github Actions. Not to be used in Storebrand. "
+DBT snowmask,Adopt,Languages & Frameworks,TRUE,Open source dbt-project that makes it very easy to use dbt to create masking policies in Snowflake.
+DBT-Snowflake-monitoring,Trial,Languages & Frameworks,TRUE,"Open source dbt-project that makes it very easy to get a more detailed view over costs in Snowflake. "
+dbt-project evaluator,Hold,Languages & Frameworks,TRUE,"dbt-project from dbt Labs that evaluates the dbt-project by what dbt Labs means are best practices. "
